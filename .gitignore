@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+.venv/
+venv/
+
+# Data and artifacts
+data/raw/
+data/processed/
+outputs/logs/
+outputs/figures/
+*.mp4
+*.bag
+*.csv
+*.npy
+*.npz
+
+# IDE
+.vscode/
+.idea/
+.DS_Store
+
+# Jupyter
+.ipynb_checkpoints/

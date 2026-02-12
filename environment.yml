@@ -1,0 +1,21 @@
+name: rPPG
+channels:
+  - conda-forge
+  - pytorch
+dependencies:
+  - python=3.10
+  - pip
+  - numpy
+  - scipy
+  - pandas
+  - matplotlib
+  - opencv
+  - scikit-learn
+  - jupyterlab
+  - pytorch
+  - torchvision
+  - cpuonly
+  - pip:
+      - pyrealsense2
+      - mediapipe
+      - heartpy
