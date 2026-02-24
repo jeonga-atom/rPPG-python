@@ -16,6 +16,7 @@ data/
 dataset/
 log/
 final_model_release/
+neural_methods/
 *.mp4
 *.bag
 *.csv

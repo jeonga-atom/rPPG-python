@@ -10,11 +10,11 @@ RealSense RGB 기반 비접촉식 심박 추정(rPPG) 연구 프로젝트.
 
 ## Folder Structure
 - `00_start_here/`: 시작 가이드
-- `configs/`: 실험/학습 설정 파일
-- `data/`: 데이터(raw/processed/external)
-- `docs/`: 문서 및 설계 노트
-- `notebooks/`: 탐색/분석 노트북
-- `scripts/`: 실행 스크립트
-- `src/`: 실제 파이썬 코드
-- `tests/`: 테스트 코드
-- `outputs/`: 로그/그래프/결과물
+- `data/`: UBFC-rPPG 데이터셋 보관 총 49개의 데이터셋이 있음
+- `dataset/`: rPPG-Toolbox의 dataset 파일
+- `final_model_release/`: rPPG-Toolbox의 학습된 모델 가중치 파일(.pth)
+- `log/`: realtime_rppg_realsense 코드 실행 후 bpm로그가 뜸
+- `neural_methods/`: rPPG-Toolbox의 학습된 모델 파일
+- `src/`: -
+- `requirements.txt/`: 코드를 실행하기 위해 필요한 페키지 목록
+- `realtime_rppg_realsense/`: 실시간 BPM탐지를 위한 메인 코드
