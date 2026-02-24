@@ -1,4 +1,4 @@
-name: rPPG
+name: rppgPython
 channels:
   - conda-forge
   - pytorch
