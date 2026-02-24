@@ -11,6 +11,11 @@ data/raw/
 data/processed/
 outputs/logs/
 outputs/figures/
+# 너무 용량이 크고, git 할 필요 없는 파일
+data/
+dataset/
+log/
+final_model_release/
 *.mp4
 *.bag
 *.csv
